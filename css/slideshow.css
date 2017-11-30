@@ -180,7 +180,7 @@ button.section {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .section {
-  background: #F45B69;
+  background:#FAF5F3;
   padding: 50px 0;
 }
 
@@ -206,7 +206,7 @@ button.section {
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
-  background:#456990;
+  background:#FEFEFE;
 }
 
 .timeline ol {
@@ -222,7 +222,7 @@ button.section {
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: white;
+  background: black;
 }
 
 .timeline ol li:last-child {
@@ -366,7 +366,7 @@ button.section {
     top: 100%;
     transform: translateX(-50%);
     border: none;
-    border-left: 1px #456990;
+    border-left: 1px #white;
     height: 25px;
   }
   
@@ -377,6 +377,9 @@ button.section {
     display: none;
   }
 }
+
+
+
 
 
 

@@ -1,14 +1,14 @@
 function myMap() {
 	
-	var SandwellCollege = {
-		info: '<strong>Sandwell College</strong><br>\
-					1 Spon Ln<br> West Bromwich B70 6AW<br>\
-					<a href="https://www.google.co.uk/maps/dir/52.6278656,-1.1419648/Sandwell+College,+1+Spon+Ln,+West+Bromwich+B70+6AW/@52.5294902,-2.1275569,9z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x4870bd69c8c84f47:0x891436e3ac44957d!2m2!1d-1.9920136!2d52.5150835!3e0">Get Directions</a>',
-		lat: 52.5151,
-		long: -1.9920
+	var broadway = {
+		info: '<strong>Chipotle on Broadway</strong><br>\
+					5224 N Broadway St<br> Chicago, IL 60640<br>\
+					<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>',
+		lat: 41.976816,
+		long: -87.659916
 	};
 
-	var De = {
+	var belmont = {
 		info: '<strong>Chipotle on Belmont</strong><br>\
 					1025 W Belmont Ave<br> Chicago, IL 60657<br>\
 					<a href="https://goo.gl/maps/PHfsWTvgKa92">Get Directions</a>',
@@ -25,7 +25,7 @@ function myMap() {
 	};
 
 	var locations = [
-      [SandwellCollege.info, SandwellCollege.lat, SandwellCollege.long, 0],
+      [broadway.info, broadway.lat, broadway.long, 0],
       [belmont.info, belmont.lat, belmont.long, 1],
       [sheridan.info, sheridan.lat, sheridan.long, 2],
     ];

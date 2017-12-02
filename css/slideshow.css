@@ -10,6 +10,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:1000;
 }
 .topnav a {
   float: left;
@@ -62,6 +63,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index:900;
 }
 
 /* Next & previous buttons */

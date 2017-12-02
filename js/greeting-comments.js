@@ -17,7 +17,6 @@
   function init() {
     setEqualHeights(elH);
     animateTl(xScrolling, arrows, timeline);
-    setSwipeFn(timeline, arrowPrev, arrowNext);
     setKeyboardFn(arrowPrev, arrowNext);
   }
 
@@ -95,7 +94,6 @@
 
   // ADD SWIPE SUPPORT FOR TOUCH DEVICES
   function setSwipeFn(tl, prev, next) {
-    const hammer = new Hammer(tl);
     hammer.on("swipeleft", () => next.click());
     hammer.on("swiperight", () => prev.click());
   }

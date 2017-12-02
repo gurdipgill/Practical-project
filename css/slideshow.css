@@ -2,11 +2,10 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
-
 }
 
 .topnav {
-  overflow: hidden;
+  overflow: show;
   background-color: #333;
   position: fixed;
   top: 0;
@@ -20,7 +19,6 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  
 }
 
 .topnav a:hover {
@@ -41,7 +39,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: fixed;}
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -64,7 +62,6 @@ body {font-family: Verdana,sans-serif;margin:0}
   max-width: 1000px;
   position: relative;
   margin: auto;
-  z-index: -1000
 }
 
 /* Next & previous buttons */

@@ -37,7 +37,7 @@
       </div>
       <h1 id="education-history">Education History</h1>
       <p>The table below gives a breakdown of the modules studied at the following insitutions</p>
-      <table>
+      <table id="edhistorytbl">
          <thead>
             <tr>
                <th>Institution</th>
@@ -48,7 +48,7 @@
          </thead>
          <tbody>
             <tr>
-               <td><b>Sandwell College</b></td>
+               <td>Sandwell College</td>
                <td>2009-2012</td>
                <td>TBA</td>
                <td>TBA</td>
@@ -63,63 +63,33 @@
                <td>De Montford University</td>
                <td>2016-2018</td>
                <td>TBA</td>
-               <td>TBA</td>
-            </tr>
-            <tr>
-               <td>4</td>
-               <td>23 Oct</td>
-               <td>TBA</td>
-               <td>exercise + essay help</td>
-            </tr>
-            <tr>
-               <td>5</td>
-               <td>30 Oct</td>
-               <td>TBC</td>
                <td>TBA</td>
             </tr>
          </tbody>
       </table>
       
-      <h2 id="job-history">job-history</h2>
+      <h2 id="job-history">Job History</h2>
       <p>The table below gives a breakdown of the modules studied at the following insitutions</p>
       <table>
          <thead>
             <tr>
-               <th>Institution</th>
-               <th>Dates Attended</th>
-               <th>Modules</th>
-               <th>Notes</th>
+               <th>Organisation</th>
+               <th>Dates</th>
+               <th>Roles</th>
+               <th>Skills obtained</th>
             </tr>
          </thead>
          <tbody>
             <tr>
-               <td><b>Sandwell College</b></td>
-               <td>2009-2012</td>
-               <td>TBA</td>
-               <td>TBA</td>
-            </tr>
-            <tr>
-               <td>University of West London</td>
-               <td>2010 – 2012</td>
-               <td>TBA</td>
+               <td><b>Genius Energy</b></td>
+               <td>March 2014 - March 2016</td>
+               <td>1st/2nd and 3rd Line Support</td>
                <td>TBA</td>
             </tr>
             <tr>
-               <td>De Montford University</td>
-               <td>2016-2018</td>
+               <td><b>Norton Commercial Data<b></td>
+               <td>March 2016 - Oct 2016</td>
                <td>TBA</td>
-               <td>TBA</td>
-            </tr>
-            <tr>
-               <td>4</td>
-               <td>23 Oct</td>
-               <td>TBA</td>
-               <td>exercise + essay help</td>
-            </tr>
-            <tr>
-               <td>5</td>
-               <td>30 Oct</td>
-               <td>TBC</td>
                <td>TBA</td>
             </tr>
          </tbody>
@@ -269,6 +239,39 @@
          </div>
       </div>
       <div id="map" style="width:100%;height:500px"></div>
+      <form id="form" action="/process.php" method="post">
+    <h2>Contact Us</h2>
+    <p>Use the form below to get in touch, or give us a call on xxx-xxx-xxx</p>
+    <div>
+        <label for='name'>Name <span class='required'>(required)</span></label>
+        <input type='text' name='name' placeholder='your name here' required />
+    </div>
+
+    <div>
+        <label for='tel'>Tel</label>
+        <input type='tel' name='tel' placeholder='your telephone here' />
+    </div>
+
+    <div>
+        <label for='email'>Email <span class='required'>(required)</span></label>
+        <input type='email' name='email' placeholder='you@yourdomain.com' required />
+    </div>
+
+    <div>
+        <label for='url'>Website</label>
+        <input type='url' name='website' placeholder='http://' />
+    </div>
+
+    <div>
+        <label for='message'>Message <span class='required'>(required)</span></label>
+        <textarea name='message' required></textarea>
+    </div>
+
+    <div>
+        <button type='submit'>Send Message</button>
+    </div>
+</form>
+
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxctik957p83ok_hyUu7IZv3Sf9DjIW2w&callback=myMap"></script>
       <script src="js/Navbar.js"></script>
       <script src="js/greeting.js"></script>

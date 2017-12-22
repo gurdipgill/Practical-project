@@ -219,7 +219,7 @@ box-sizing: border-box;
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin: 1;
   padding: 0;
   box-sizing: border-box;
 }
@@ -516,11 +516,35 @@ button.section {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
     }
  
-    
+ 
+
+     #jobhistorytbl {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    #jobhistorytbl td, #jobhistorytbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+     #jobhistorytbl tr:nth-child(even){background-color: #f2f2f2;}
+
+    #jobhistorytbl tr:hover {background-color: #ddd;}
+
+    #jobhistorytbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+    }
+ 
 
 
 
